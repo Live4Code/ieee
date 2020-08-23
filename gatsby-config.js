@@ -3,7 +3,7 @@ const config = require('./config')
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 module.exports = {
-  pathPrefix: "/gatsby-starter-business",
+  pathPrefix: '/ieee',
   siteMetadata: {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
@@ -74,7 +74,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         enableIdentityWidget: true,
-        htmlTitle: `Gatsby Starter Business Content Manager`,
+        htmlTitle: `IEEE Technical Committee on Electric and Autonomous Vehicles Content Manager`,
       },
     },
     {
