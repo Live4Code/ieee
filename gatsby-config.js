@@ -18,6 +18,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-chakra-ui`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
