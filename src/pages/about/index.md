@@ -3,36 +3,30 @@ templateKey: about-page
 title: About Us
 meta_title: About Us | IEEE Technical Committee on Electric and Autonomous Vehicles
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  IEEE EAV mission statement and committee members
 ---
-## Lorem ipsum dolor sit amet, consectetuer
+## Mission Statement
+With the fusion of new technologies applied to electric motors and autonomous driving, the automobile industry will face many more changes in the next decade than it has for the last 100+ years since its inception. This is comparable to the historical moment when most people relied on horses, while vehicles powered by internal combustion engines were about to revolutionize transportation. We are at the tipping point of a new era with a safer, greener, and smarter transportation system.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+However, hardly any industry can adopt so many technological innovations simultaneously even with billions of dollars of investment and tremendous influx of talents. One exception is the IT industry where astonishing progress has been made in part due to wide range collaboration through open source infrastructures. In order to make the trend towards electric and autonomous vehicles become more dependable and reliable, there is still much for the automobile industry to learn. Indeed, departing from the proprietary architectures, designs, and supply chains, future vehicles are like a complicated embedded system on wheels. Moreover, the majority of future innovations will be based on software and artificial intelligence. On the other hand,  the automobile industry is different in that it is highly regulated due to safety and reliability concerns. Thus, the open source-based innovations are essential but will need more organized efforts to integrate the standards from the automobile industry with computer software and hardware into all the products.
 
-##In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+In response to the above challenges, we have established a Technical Committee on *Electric and Autonomous Vehicles* (TC-EAV) under the IEEE Reliability Society (RS). TC-EAV aims to foster bring researchers and practitioners together as the promising future of the automobile industry heavily relies on interdisciplinary collaborations among academia, industry, and government agencies, including both private and public sectors, in the areas such as software engineering, communications and networking, computer visions, artificial intelligence and machine learning, cyber-physical systems, testing, validation, and formal verification.
 
-Nullam dictum felis eu pede mollis
-pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra
-quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-Etiam ultricies nisi vel augue.  Nam eget dui. *Etiam rhoncus*. Maecenas
-tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-Nam quam nunc, blandit vel, luctus pulvinar
+### Committee Co-chairs
+* Yue Chen, FutureWei Inc
+* Eric Wong, University of Texas at Dallas
+* Zijiang Yang, GuardStrike Inc and Western Michigan University
 
-###Curabitur ullamcorper ultricies nisi.
+### Advisory Committee:
+* Rajeev Alur, UPenn
+* Sanjit Seshia, UC Berkeley
+* Moshe Vardi, Rice Univ
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-mollis sed, nonummy id, metus.
-* Cras ultricies mi eu turpis hendrerit fringilla.
-* Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-* In ac dui quis mi consectetuer lacinia.
-
-**Etiam ultricies nisi vel augue!**
+### Committee Members
+* Angelo Corsaro, ADLINK Technology
+* Zhifeng Jia, Yixin Group
+* Eunsuk Kang, Carnegie Mellon University
+* Kaisheng Ma, Tsinghua University
+* Weisong Shi, Wayne State University
+* Shinichi Shiraishi, Toyota Research Institute
+* Linzhang Wang, Nanjing University
