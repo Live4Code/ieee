@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
+import { Image } from '@chakra-ui/core'
+
 import SearchBox from '../SearchBox'
 
 const NavBar = ({ toggleNavbar, isActive }) => (
@@ -14,9 +16,14 @@ const NavBar = ({ toggleNavbar, isActive }) => (
     render={data => (
       <nav className='navbar is-fixed-top' aria-label='main navigation'>
         <div className='navbar-brand'>
-          <Link to='/' className='navbar-item'>
-            <strong>IEEE Technical Committee on Electric and Autonomous Vehicles</strong>
-          </Link>
+          {/* <Link to='/' className='navbar-item'>
+          </Link> */}
+          <div className='left-pad'>
+            <a href='/'>
+              <img width='360px' src='/img/ieee-header.png' alt='IEEE EAV' />
+            </a>
+          </div>
+
           <button
             className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
             data-target='navMenu'
@@ -34,12 +41,15 @@ const NavBar = ({ toggleNavbar, isActive }) => (
             <Link className='navbar-item' to='/about'>
                             About
             </Link>
-            <Link className='navbar-item' to='/pricing'>
-                            Pricing
+            <Link className='navbar-item' to='/news'>
+                            News
             </Link>
-            <Link className='navbar-item' to='/blog'>
-                            Blog
+            <Link className='navbar-item' to='/projects'>
+                            Projects
             </Link>
+            {/* <Link className='navbar-item' to='/resources'>
+                            Resources
+            </Link> */}
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>

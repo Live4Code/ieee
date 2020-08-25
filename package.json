@@ -1,7 +1,7 @@
 {
-  "name": "ieee",
-  "version": "0.5.0",
-  "description": "IEEE Web",
+  "name": "ieee-eav",
+  "version": "0.6.0",
+  "description": "IEEE EAV Web",
   "main": "index.js",
   "scripts": {
     "develop": "gatsby develop",
