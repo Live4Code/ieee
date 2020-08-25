@@ -40,6 +40,15 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}
+      - file: "src/projects/news/index.md"
+        label: "Projects"
+        name: "projects"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "projects-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
       - file: "src/pages/pricing/index.md"
         label: "Pricing Page"
         name: "pricing"

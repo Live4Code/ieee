@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import { Image } from '@chakra-ui/core'
 
 import SearchBox from '../SearchBox'
 

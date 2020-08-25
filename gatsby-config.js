@@ -18,7 +18,21 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-chakra-ui`,
+    {
+      resolve: 'gatsby-plugin-chakra-ui',
+      options: {
+        /**
+         * @property {boolean} [isResettingCSS=true]
+         * if false, this plugin will not use `<CSSReset />
+         */
+        isResettingCSS: false,
+        /**
+         * @property {boolean} [isUsingColorMode=true]
+         * if false, this plugin will not use <ColorModeProvider />
+         */
+        isUsingColorMode: false,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,

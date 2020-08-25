@@ -1,5 +1,5 @@
 ---
-templateKey: news-page
+templateKey: projects-page
 title: Projects
 meta_title: Projects | IEEE Technical Committee on Electric and Autonomous Vehicles
 meta_description: >-

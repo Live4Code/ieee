@@ -13,7 +13,7 @@ module.exports = {
   userTwitter: 'guofoo',
   userLocation: 'Silicon Valley',
   userDescription: '',
-  copyright: 'Copyright © IEEE 2020. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
-  themeColor: '#00d1b2', // Used for setting manifest and progress theme colors.
+  copyright: 'Copyright © IEEE EAV 2020. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
+  themeColor: '#96aaf0', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff', // Used for setting manifest background color.
 }
