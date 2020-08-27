@@ -18,9 +18,9 @@ const NavBar = ({ toggleNavbar, isActive }) => (
           {/* <Link to='/' className='navbar-item'>
           </Link> */}
           <div className='left-pad'>
-            <a href='/'>
-              <img width='360px' src='/img/ieee-header.png' alt='IEEE EAV' />
-            </a>
+            <Link to='/' className='navbar-item'>
+              <img height='300px' src='/img/ieee-header.png' alt='IEEE EAV' />
+            </Link>
           </div>
 
           <button
