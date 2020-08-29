@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link, graphql, StaticQuery } from 'gatsby'
-
+import { Link, graphql, StaticQuery, withPrefix } from 'gatsby'
 import SearchBox from '../SearchBox'
 
 const NavBar = ({ toggleNavbar, isActive }) => (
@@ -19,7 +18,9 @@ const NavBar = ({ toggleNavbar, isActive }) => (
           </Link> */}
           <div className='left-pad'>
             <Link to='/' className='navbar-item'>
-              <img height='300px' src='/img/ieee-header.png' alt='IEEE EAV' />
+              <div className='header-img'>
+                <img src={withPrefix('/img/ieee-header.png')} alt='IEEE EAV' />
+              </div>
             </Link>
           </div>
 
