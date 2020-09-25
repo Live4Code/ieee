@@ -50,7 +50,7 @@ Cognata: https://www.cognata.com/
 
 ## Autonomous driving platforms
 
-### NIVIDA DRIVE Constellation
+### NVIDIA DRIVE Constellation
 
 NVIDIA DRIVE Constellation™ is an open, scalable, autonomous vehicle validation platform that enables a virtual test fleet in the data center. Each node is comprised of a powerful GPU server directly coupled with another server hosting the on-board AI computer of an autonomous vehicle.
 

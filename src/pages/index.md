@@ -10,18 +10,21 @@ description: >-
 offerings:
   blurbs:
     - image: /img/ieee-image-purple.png
+      link: /about
       text: >
         About Us
     - image: /img/ieee-image-gray.png
+      link: /news
       text: >
         What's New
-
     - image: /img/ieee-logo-equation.png
+      link: /projects
       text: >
         Featured Projects
     - image: /img/ieee-logo-med-purple.png
+      link: /resources
       text: >
-        Join Us
+        Resources
 testimonials:
   - author: John Smith
     quote: >-
