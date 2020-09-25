@@ -1,5 +1,19 @@
 # IEEE Technical Committee on Electric and Autonomous Vehicles
 
+## Prerequisite
+```
+npm install -g gatsby-cli
+```
+
+Details:
+https://www.gatsbyjs.com/docs/quick-start/
+
+## Setup
+
+```
+git clone git@github.com:Live4Code/ieee.git
+```
+
 ## Available Scripts
 
 ### Develop
@@ -33,6 +47,17 @@ yarn clean
 ```
 
 ## Deployment
+
+### Github
+This will deploy to the Github Pages by pushing the built site to the gh-pages branch
+See the changes at: 
+https://live4code.github.io/ieee/
+
+```shell
+yarn deploy
+```
+
+### Netlify
 Clicking the button will ask for authentication via Github, which will create a repo in your github account with this starter. Then, it will build and deploy the site to Netlify.
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/v4iv/gatsby-starter-business&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
