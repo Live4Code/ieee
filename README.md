@@ -10,9 +10,13 @@ https://www.gatsbyjs.com/docs/quick-start/
 
 ## Setup
 
-```
-git clone git@github.com:Live4Code/ieee.git
-```
+To contribute to the project, first Fork the project to your own account.
+
+Then clone the new forked project to your local machine and make changes.
+
+After changes are complete, push changes to the forked project on github.
+
+To commit the changes back to this project, create a Pull request and it will be merged back into the master.
 
 ## Available Scripts
 
