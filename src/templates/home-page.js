@@ -1,57 +1,43 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import HomePageTemplate from '../components/HomePageTemplate'
+import { HTMLContent } from '../components/Content'
+import AboutPageTemplate from '../components/AboutPageTemplate'
 import Layout from '../components/Layout'
 
 const HomePage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <HomePageTemplate
-        title={frontmatter.title}
-        meta_title={frontmatter.meta_title}
-        meta_description={frontmatter.meta_description}
-        heading={frontmatter.heading}
-        description={frontmatter.description}
-        offerings={frontmatter.offerings}
-        testimonials={frontmatter.testimonials}
+      <Helmet>
+        <title>{post.frontmatter.meta_title}</title>
+        <meta name='description' content={post.frontmatter.meta_description} />
+      </Helmet>
+      <AboutPageTemplate
+        contentComponent={HTMLContent}
+        title={post.frontmatter.title}
+        content={post.html}
       />
     </Layout>
   )
 }
 
 HomePage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
+  data: PropTypes.object.isRequired,
 }
 
 export default HomePage
 
-export const pageQuery = graphql`
+export const aboutPageQuery = graphql`
   query IndexPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
+      html
       frontmatter {
         title
         meta_title
         meta_description
-        heading
-        description
-        offerings {
-          blurbs {
-            image
-            link
-            text
-          }
-        }
-        testimonials {
-          author
-          quote
-        }
       }
     }
   }
